@@ -14,6 +14,7 @@ import {
 export default function App() {
   return(
     <Router>
+      <div style={{height: '100%'}}>
       <Switch>
           <Route path="/confirmation">
             <Confirmation />
@@ -25,6 +26,7 @@ export default function App() {
             <Cart />
           </Route>
         </Switch>
+        </div>
     </Router>
   )
 }

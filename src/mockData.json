@@ -1,0 +1,25 @@
+{
+    "data":[
+       {
+          "header":"DELEGATE TICKET",
+          "title":"50 Hours - Professional Category",
+          "description":"Random Lorem Ipsum dolor",
+          "price":700,
+          "closingDate":"17-Oct-2017"
+       },
+       {
+          "header":"",
+          "title":"50 Hours",
+          "description":"Random Lorem Ipsum dolor",
+          "price":700,
+          "closingDate":"17-Oct-2017"
+       },
+       {
+          "header":"EXHIBITORS TICKET",
+          "title":"50 Hours - Professional Category",
+          "description":"Random Lorem Ipsum dolor",
+          "price":700,
+          "closingDate":"17-Oct-2017"
+       }
+    ]
+ }
