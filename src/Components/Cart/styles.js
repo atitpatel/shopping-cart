@@ -14,7 +14,10 @@ const styles = {
         border: '1px transparent', 
         boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'
     },
-
+    itemHeader: {
+        padding: '10px 0 0 30px',
+        color: '#C9C9C9'
+    },
     summaryContainer: {
         width: '30%',
         height: '80%',
@@ -32,6 +35,9 @@ const styles = {
         border: '1px 1px 0 0 transparent',
         backgroundColor: '#F7F8F7',
         borderColor: 'transparent'
+    },
+    summaryBody: {
+        
     },
     totalSubHeader: {
         height: 70,
@@ -107,6 +113,45 @@ const styles = {
         color: 'white',
         textAlign: 'center',
         borderRadius: '0 0 15px 0'
+    },
+    cartItem: {
+        height: '30%',
+        padding: '15px 15px 5px 15px'
+    },
+    cartItemName: {
+        fontSize: 12
+    },
+    calculation: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        flex: 1,
+        alignItems: 'center',
+        margin: `5px 0 0 0`
+    },
+    counter: {
+        display: 'flex',
+        width: '30%'
+    },
+    cartItemPrice: {
+        fontSize: 10,
+        color: '#919191',
+        width: '30%',
+        textAlign: 'center'
+    },
+    cartFinalPrice: {
+        fontSize: 12,
+        width: '30%',
+        textAlign: 'end',
+        color: '#919191',
+    },
+    separator: {
+        margin: '10px 0 0 0',
+        display: 'flex',
+        flex: 1,
+        height: 1,
+        width: '100%',
+        backgroundColor: '#919191'
     }
 };
 
