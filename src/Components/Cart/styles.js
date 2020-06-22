@@ -7,7 +7,7 @@ const styles = {
     totalContainer: {
         width: '60%',
         height: '100%',
-        margin: 50,
+        margin: '10%',
         padding: '0 0 20px 0',
         backgroundColor: 'white', 
         borderRadius: 15, 
@@ -21,7 +21,7 @@ const styles = {
     summaryContainer: {
         width: '30%',
         height: '80%',
-        margin: 50,
+        margin: '10%',
         backgroundColor: 'white', 
         borderRadius: 15, 
         border: '1px transparent', 
@@ -37,7 +37,7 @@ const styles = {
         borderColor: 'transparent'
     },
     summaryBody: {
-        
+        minHeight: 300
     },
     totalSubHeader: {
         height: 70,
@@ -152,6 +152,35 @@ const styles = {
         height: 1,
         width: '100%',
         backgroundColor: '#919191'
+    },
+    total: {
+        backgroundColor: '#F7F8F7',
+        padding: 15,
+        display: 'flex',
+        justifyContent: 'space-between',
+    },
+    subtotalText: {
+        fontSize: 12,
+        textAlign: 'start'
+    },
+    subtotalPrice: {
+        fontSize: 12,
+        textAlign: 'end'
+    },
+    continueButton: {
+        backgroundColor: '#F7F8F7',
+        display: 'flex',
+        justifyContent: 'center',
+        borderRadius: '0 0 15px 15px'
+    },
+    mainButton: {
+        margin: 15,
+        padding: 10,
+        color: 'white',
+        backgroundColor: '#5BB0AD',
+        width: '80%',
+        border: '1px transparent',
+        borderRadius: 15
     }
 };
 

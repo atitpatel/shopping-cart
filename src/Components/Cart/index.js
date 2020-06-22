@@ -182,13 +182,13 @@ export default class Cart extends Component {
                 {
                     this.isCartEmpty() ? null
                      : (
-                         <div>
+                         <div style={{backgroundColor: '#F7F8F7', borderRadius: '0 0 15px 15px'}}>
                             <div style={styles.total}>
                                 <div style={styles.subtotalText}>Subtotal</div>
-                                <div style={styles.subtotalText}>{`₹ ${this.calculateTotal()}`}</div>
-                            </div>
+                                <div style={styles.subtotalPrice}>{`₹ ${this.calculateTotal()}`}</div>
+                                </div>
                             <div style={styles.continueButton}>
-                                <button>Continue</button>
+                                <button style={styles.mainButton}>Continue</button>
                             </div>
                         </div>
                         )
