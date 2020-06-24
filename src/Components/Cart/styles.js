@@ -2,12 +2,14 @@ const styles = {
     container: {
         backgroundColor: '#E8E8E8',
         display: 'flex',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'center'
     },
     totalContainer: {
-        width: '60%',
+        flex: 1,
         height: '100%',
-        margin: '10%',
+        margin: '10% 5% 10% 5%',
         padding: '0 0 20px 0',
         backgroundColor: 'white', 
         borderRadius: 15, 
@@ -19,12 +21,13 @@ const styles = {
         color: '#C9C9C9'
     },
     summaryContainer: {
-        width: '30%',
         height: '80%',
-        margin: '10%',
+        flex: 'inherit',
+        margin: '10% 5% 10% 5%',
         backgroundColor: 'white', 
         borderRadius: 15, 
-        border: '1px transparent', 
+        border: '1px transparent',
+        minWidth: 300,
         boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'
     },
     subHeader: {
